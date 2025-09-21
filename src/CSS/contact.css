@@ -1,0 +1,54 @@
+/* Container background and padding */
+.contact-container {
+  background-color: #f8f9fa;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  align-items: center;
+}
+
+/* Title style */
+.contact-title {
+  color: #212529;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+/* Labels style */
+.contact-label {
+  font-weight: 600;
+  color: #495057;
+}
+
+/* Inputs and textarea custom border and shadow */
+.contact-input,
+.contact-textarea {
+  border: 2px solid #ced4da;
+  border-radius: 8px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.contact-input:focus,
+.contact-textarea:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 8px rgba(13,110,253,0.5);
+  outline: none;
+}
+
+/* Button styling */
+.contact-button {
+  display: block;
+  width: 80%;
+  font-weight: 600;
+  padding: 0.75rem 0;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #0047b3;
+  border-color: #0047b3;
+}

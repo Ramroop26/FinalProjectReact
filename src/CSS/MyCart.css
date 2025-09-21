@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Total Amount */
+.total-amount {
+  text-align: center;
+  margin: 10px 0 20px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #28a745; /* Bootstrap green */
+}
+
+/* Table Styles */
+.table {
+  background-color: #0f83e2;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th {
+  background-color: #007bff; /* Bootstrap blue */
+  color: white;
+  text-align: center;
+}
+
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Product Image */
+.table img {
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Quantity Icons */
+.table svg {
+  cursor: pointer;
+  margin: 0 8px;
+  font-size: 20px;
+  color: #007bff;
+  transition: color 0.2s ease;
+}
+
+.table svg:hover {
+  color: #0056b3;
+}
+
+/* Delete Button */
+.table button {
+  background-color: #fb641b; /* Bootstrap red */
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.table button:hover {
+  background-color: #a71d2a;
+}
+
+/* Table Header */
+.table th {
+  background-color: #222;   /* Dark background */
+  color: #fff;              /* White text */
+  text-align: center;
+  font-weight: bold;
+  padding: 12px;
+}

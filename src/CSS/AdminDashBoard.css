@@ -1,0 +1,73 @@
+/* Admin Header */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#adminheader {
+color: lightgreen;
+ 
+
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+ background: linear-gradient(135deg, #111, #1a1a40, #ff0080, #ffcc00, #1877f2);
+
+}
+
+/* Wrapper Layout */
+#adminwrapper {
+  display: flex;
+  min-height: calc(100vh - 80px); /* full height minus header */
+ background: linear-gradient(135deg, #111, #1a1a40, #ff0080, #ffcc00, #1877f2);
+
+}
+
+/* Sidebar Menu */
+#leftmenu {
+  width: 250px;
+  
+ background: linear-gradient(135deg, #111, #1a1a40, #ff0080, #ffcc00, #1877f2);
+
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.adminmenu {
+  display: block;
+  padding: 13px 15px;
+  /* background: #ffffff; */
+  border: 0px solid #ddd;
+  border-radius: 6px;
+  font-weight: 500;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.adminmenu:hover {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
+  text-decoration: none;
+}
+
+/* Active menu item */
+.adminmenu.active {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+/* Content Area */
+#admindata {
+  flex: 1;
+  padding: 30px;
+  background: #f4f6f9;
+}

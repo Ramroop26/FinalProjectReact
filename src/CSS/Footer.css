@@ -1,0 +1,106 @@
+.footer {
+ background: linear-gradient(135deg, #111, #1a1a40, #ff0080, #ffcc00, #1877f2);
+  color: #fff;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+ 
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  color: #ffcc00;
+  margin-bottom: 12px;
+}
+
+.footer-section p {
+  font-size: 14px;
+  margin: 6px 0;
+  color: white;
+}
+.footer-section p strong {
+  color: #ffcc00;
+}
+
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 8px 0;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+  color: #ffcc00;
+  text-decoration: underline;
+}
+
+/* 🔥 Social Media Icons */
+.social-links a {
+  margin-right: 12px;
+  font-size: 22px;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Facebook */
+.social-links a .fa-facebook {
+  color: #1877f2;
+}
+.social-links a:hover .fa-facebook {
+  color: #0d5ddf;
+  transform: scale(1.2);
+}
+
+/* Twitter */
+.social-links a .fa-twitter {
+  color: #1da1f2;
+}
+.social-links a:hover .fa-twitter {
+  color: #0a8cd9;
+  transform: scale(1.2);
+}
+
+/* Instagram Gradient */
+.social-links a .fa-instagram {
+  background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.social-links a:hover .fa-instagram {
+  transform: scale(1.2);
+}
+
+/* YouTube */
+.social-links a .fa-youtube {
+  color: #ff0000;
+}
+.social-links a:hover .fa-youtube {
+  color: #cc0000;
+  transform: scale(1.2);
+}
+
+/* Footer bottom */
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  margin-top: 30px;
+  padding-top: 15px;
+  font-size: 13px;
+  color: white;
+}

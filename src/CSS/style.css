@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #topheader{ width: 100%; padding: 20px; background-color: lightblue; } */
+#topNav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+#topmenu {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#topshoes {
+    display: flex;
+    justify-content: space-between;
+    width: "90%";
+    flex-wrap: wrap;
+}
+
+#mainmenu {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+background: linear-gradient(135deg, #111, #1a1a40, #ff0080, #ffcc00, #1877f2);
+    color: white;
+}
+
+/* #navbar{ display: flex; justify-content: center; align-items: center; color: black; } */
+#home:hover {
+    color: bisque;
+}
+
+#man:hover {
+    color: bisque;
+}
+
+#women:hover {
+    color: bisque;
+}
+
+#kids:hover {
+    color: bisque;
+}
+
+#customize:hover {
+    color: bisque;
+}
+
+#contacts:hover {
+    color: bisque;
+}
+
+#logo {
+    margin-left: 2%;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: lightgreen;
+    text-align: center;
+    font-size: 4rem;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(30, 30, 32);
+    align-items: center;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(31, 240, 233, 0.911);
+    text-align: center;
+}
+
+
+#btn {
+    background-color: rgba(0, 0, 0, 0.842);
+    color: white;
+    width: 10%;
+    padding: 10px;
+    height: 45px;
+    border-radius: 20px;
+    border: 0px solid grey;
+}
+
+#sh {
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 80px;
+}
+
+#par {
+    color: rgb(211, 31, 31);
+    font-size: 80px;
+}
+
+#rightmenu:hover {
+    color: bisque;
+}
+
+#rightmen {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  width: 55%;
+  padding: 10px;
+  /* background-color: rgb(21, 215, 250); */
+}
+
+.cart-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-icon {
+  font-size: 25px; 
+  top: -7px; /* bada dikhane ke liye */
+  color: #007bff;
+}
+
+.cart-count {
+  position: absolute;
+  top: -4px;      /* upar shift */
+  left: 6px;
+  right: 6px;     /* center me lane ke liye adjust */
+  background: #ff4d4d;
+  color: white;
+  font-size: 9px;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 50px;  /* fully rounded badge */
+  min-width: 20px;
+  text-align: center;
+}
+
+.cart-text {
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+
+#adminheader {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(76, 177, 211);
+}
+
+#adminwrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftmenu {
+    width: 12%;
+    background-color: rgb(41, 40, 40);
+    height: 41rem;
+    padding: 10px;
+}
+
+.adminmenu {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    top:-4px;
+}
+
+#admindata {
+    width: 85%;
+    padding: 30px;
+}
