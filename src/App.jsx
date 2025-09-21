@@ -27,17 +27,17 @@ const App = () => {
           {/* Main Layout Routes */}
           <Route path='/' element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="home" element={<Home />} />
-            <Route path="man" element={<Man />} />
-            <Route path="women" element={<Women />} />
-            <Route path="kids" element={<Kids />} />
-            <Route path="customize" element={<Customize/>} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/man" element={<Man />} />
+            <Route path="/women" element={<Women />} />
+            <Route path="/kids" element={<Kids />} />
+            <Route path="/customize" element={<Customize/>} />
 
-            <Route path="contact" element={<Contact />} />
+            <Route path="/contact" element={<Contact />} />
 
-            <Route path="mycart" element={<MyCart />} />
-            <Route path="checkout" element={<CheckOut />} />
-            <Route path="paydone" element={<PaymentDone />} />
+            <Route path="/mycart" element={<MyCart />} />
+            <Route path="/checkout" element={<CheckOut />} />
+            <Route path="/paydone" element={<PaymentDone />} />
 
             
            
