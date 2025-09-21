@@ -1,4 +1,3 @@
-import React from 'react';
 import '../CSS/customize.css'; // Agar styling chahiye ho
 
 const Customize = () => {
