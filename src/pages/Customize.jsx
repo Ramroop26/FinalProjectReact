@@ -1,4 +1,4 @@
-import '../CSS/customize.css'; // Agar styling chahiye ho
+import  "../CSS/customize.css"; // Agar styling chahiye ho
 
 const Customize = () => {
   return (
